@@ -10,8 +10,8 @@ class TestSum(unittest.TestCase):
         Test case to add two numbers
         """
         data = [23, 32]
-        result = summation(data)
-        self.assertEqual(result, 55)
+        result = get_abs_diff(data)
+        self.assertEqual(result, 9)
 
 if __name__ == '__main__':
     unittest.main()
