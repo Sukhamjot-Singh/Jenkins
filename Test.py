@@ -11,7 +11,7 @@ class TestSum(unittest.TestCase):
         """
         data = [23, 32]
         result = get_abs_diff(data)
-        self.assertEqual(result, 55)
+        self.assertEqual(result, 9)
 
 if __name__ == '__main__':
     unittest.main()
